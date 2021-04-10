@@ -1,0 +1,36 @@
+header{
+    background-color: burlywood;
+    
+}
+
+.caja{
+    display: block;
+    clear: both;
+    font-family: cursive;
+    padding: 6px;    
+}
+nav{
+    background-color: coral;
+    padding: 12px;
+}
+section{
+    float: left;
+    width: 76%;
+    background-color: rgb(218, 218, 53);
+}
+aside{
+    float: left;
+    width: 23%;
+    background-color: ghostwhite;
+    
+}
+footer{
+    background-color: rgb(136, 46, 136);
+    padding: 12px;
+
+}
+.contenedor::after{
+    content: "";
+    display: block;
+    clear: both;
+}

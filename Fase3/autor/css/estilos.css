@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.caja{
+    display: block;
+    clear: both;
+    font-family: cursive;
+    padding: 6px;    
+}
+nav{
+    background-color: rgba(255, 255, 255, 0.932);
+    padding: 12px;
+}
+.izquierdo{
+    background-color: burlywood;
+    width: 60%;
+    height: 120 xvh;
+}
+
+.derecho{
+    background:url(fondo.jpg);
+    background-size: auto;
+    background-position: center;
+    width: 30%;
+    height: 125vh;      
+}
+#pantalla-dividida{
+    display: flex;
+}
